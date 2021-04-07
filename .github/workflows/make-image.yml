@@ -27,7 +27,7 @@ jobs:
 
       - name: Install build requirements
         run: |
-          sudo apt install automake autopoint bison chrpath cmake devscripts flex gawk gperf intltool libtool-bin lzop swig libncurses5-dev zlib1g-dev
+          sudo apt install automake autopoint bison chrpath cmake devscripts flex gawk gperf intltool libtool-bin lzop mtools swig libncurses5-dev zlib1g-dev
           
       # Runs a single command using the runners shell
       - name: Build RPi Images
